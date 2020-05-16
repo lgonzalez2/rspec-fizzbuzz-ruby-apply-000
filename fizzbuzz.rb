@@ -9,5 +9,7 @@ def fizzbuzz(num)
   elsif (num / 3) && (num / 5) == 1
     puts "FizzBuzz"
     "FizzBuzz"
+  else
+    return "nil"
   end
 end
